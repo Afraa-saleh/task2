@@ -9,3 +9,4 @@ export default function Card({ id,img, title, color, bgColor, descreption}) {
     </div>
   )
 }
+

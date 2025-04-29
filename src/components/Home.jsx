@@ -13,14 +13,14 @@ import { cardData } from './CardData'
 
                 <div className="additional">
 
-                <span className='join'>Lorem ipsum dolor sit.</span>
-                <h1>Lorem ipsum dolor sit <span>Lorem ipsum dolor</span></h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reprehenderit optio ducimus.</p>
+                <span className='join'>Welcome to Little Learners Academy</span>
+                <h1>Where Young Minds Blossom and <span>Dreams Take Flight.</span></h1>
+                <p>Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
 
                 <div className="content-count">
-                    <span>Lorem ipsum <br /><a href="#">+400</a></span>
-                    <span>Lorem ipsum <br /><a href="#">+400</a></span>
-                    <span>Lorem ipsum <br /><a href="#">+400</a></span>
+                    <span className='count'>+7000<br /><span>Students Passed Out</span></span>
+                    <span className='count'>+37<br /><span>Awards & Recognitions</span></span>
+                    <span className='count'>+15<br /><span>Experience Educators</span></span>
 
                 </div>
 

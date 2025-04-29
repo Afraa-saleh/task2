@@ -5,6 +5,7 @@ import OurTestimonials from './OurtesTimonials'
 import Courses from './Courses'
 import Accordion from './Accordion'
 import Slider from './Slider'
+import Pages from './Pages'
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
       <OurTestimonials/>
       <Courses/>
       <Accordion/>
+      <Pages/>
     </main>
   )
 }

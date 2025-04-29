@@ -13,7 +13,6 @@ export default function AccordionCard() {
 
        setSelected(i)
     }
-
   return (
     <div id='accordion'>
         {accourdionData.map((item, i)=> (

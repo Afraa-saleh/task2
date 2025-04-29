@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { slidercard } from './CardData';
+import { FaStar } from "react-icons/fa";
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,6 +30,13 @@ const Slider = () => {
               </div>
                
                 <h3 className="card-name">{item.name}</h3>
+                 <div className="rating-content">
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            </div>
               <p className="card-description">{item.descreption}</p>
             </div>
           ))}

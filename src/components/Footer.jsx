@@ -6,25 +6,32 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-top">
+
         <div className="footer-about">
           <div className="logo-section">
-            <div className="logo-placeholder">L</div>
-            <h2>Little Learners</h2>
+            <img className= 'logo'src="./public/logo.png" alt="" />
           </div>
           <p>
             We believe in the power of play to foster creativity, <br />
             problem-solving skills, and imagination.
           </p>
           <div className="contact-item">
+          <div className="icon-content">
             <FaEnvelope className="icon" />
+            </div>
             <span>hello@littlelearners.com</span>
           </div>
           <div className="contact-item">
-            <FaPhone className="icon" />
+            <div className="icon-content">
+             <FaPhone className="icon" />
+
+            </div>
             <span>+91 91813 23 2309</span>
           </div>
           <div className="contact-item">
+          <div className="icon-content">
             <FaMapMarkerAlt className="icon" />
+            </div>
             <span>Somewhere in the World</span>
           </div>
         </div>
@@ -74,7 +81,9 @@ export default function Footer() {
           <a href="#"><FaTwitter /></a>
           <a href="#"><FaLinkedinIn /></a>
         </div>
+
       </div>
+        <div className='Copyright'>Copyright © [2023] Little Learners Academy. All rights reserved.</div>
     </footer>
   );
 }

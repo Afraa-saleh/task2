@@ -12,7 +12,7 @@ export default function Cource({id, img, title, sales, rating, price, lessons, d
                 <p className='department'>{department}</p>
                 <p className='rating'><FaStar/>{rating}</p>
             </div>
-
+            
             <h3>{title}</h3>
             <p className="descreption">{descreption}</p>
             <p className="sales">{sales} Sales</p>

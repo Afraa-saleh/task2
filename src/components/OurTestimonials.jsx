@@ -1,6 +1,8 @@
 import React from 'react'
 import { slidercard } from './CardData'
 import Slider from './Slider';
+import SectionHeader from './SectionHeader';
+
 
 
 
@@ -10,9 +12,10 @@ import Slider from './Slider';
         <div className="container">
           
           <div className="title-description-testimonials">
-            <h1>Our Testimonials</h1>
-            <span className='line'></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero tempore vel.</p>
+          <div className="text-top">Their Happy Words 🤗</div>
+          <div className='info'>
+          <SectionHeader title="Our Testimonials" description="Our testimonials are heartfelt reflections of the nurturing environment we provide, where children flourish both academically and emotionally."/>
+          </div>
           </div>
             <div className='slider-card-container'>
             <Slider/>

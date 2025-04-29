@@ -8,8 +8,10 @@ export default function Courses() {
   return (
     <section id='cources'>
       <div className="container">
-        <SectionHeader title="Our Cources" description="njndf dsbgh sdhjbfudsbf dsbgubrusf jhdhbfgubf "/>
+      <div className="text-top">Smile :)</div>
 
+        <SectionHeader title="Our Cources" description="Most Important Cources We Have"/>
+        
         <div className="cources-container">
             {courceData.map((cource) =>{
                 const {department, discount, descreption, duration, id, img, lessons, price, rating, sales, title} =cource

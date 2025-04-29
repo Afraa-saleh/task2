@@ -1,25 +1,23 @@
 import React from 'react'
-import { GoArrowRight } from "react-icons/go";
+import Navbar from './Navbar'
+import { FaChevronCircleRight} from "react-icons/fa";
 
-export default function Header() {
+
+function Header() {
   return (
-   <header id='header'>
-        <nav className='navbar'>
-            <a href="#" className='logo'>Academy</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Academies</a></li>
-                <li><a href="#">Adminshsakjf</a></li>
-                <li><a href="#">Students Life</a></li>
-                <li><a href="#" className='contact-select'>Contact</a></li>
+    <>
+        <div className="nav-top">
+          <p>Admission is Open, Grab your seat now <FaChevronCircleRight/></p>
+        </div>
+     <header id='header'>
+       
+        <Navbar/>
 
-
-            </ul>
-            <div className="account">
-                <a href="#" className='btn-join'>Join Us <GoArrowRight /></a>
-            </div>
-        </nav>
-   </header>
+        
+    </header>
+    </>
+   
   )
 }
+
+export default Header
